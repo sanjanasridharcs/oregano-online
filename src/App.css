@@ -36,9 +36,16 @@
 .subheader_text {
   color: darkolivegreen;
   font-family: 'Amatic SC', cursive;
-  font-size: 500%;
+  font-size: 200%;
   height: 20%;
-  padding-top: 80px;
+  padding-top: 40px;
+  float: left;
+  padding-left: 40px;
+}
+
+.subtextContainer {
+  height: 100px;
+  margin-top: 1%;
 }
 
 .subpage {
@@ -46,11 +53,16 @@
   margin: 1%;
 }
 
+.subtext {
+  height: 100%;
+  margin-top: 10px;
+}
+
 .subtextleft {
   background-color: darkolivegreen;
   color: beige;
   font-family: 'Amatic SC', cursive;
-  font-size: 200%; 
+  font-size: 30px; 
   padding: 1%;
   float: left; 
   text-align: left;
@@ -61,9 +73,18 @@
   background-color: darkolivegreen;
   color: beige;
   font-family: 'Amatic SC', cursive;
-  font-size: 200%; 
-  padding: 1%;
+  font-size: 30px; 
   float: right; 
+  padding: 1%;
   text-align: right;
   width: 48%;
 }
+
+.subtextright_advanced {
+  text-align: right;
+}
+
+.checked {
+  color: orange;
+}
+

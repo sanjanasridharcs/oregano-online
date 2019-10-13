@@ -1,6 +1,7 @@
 
 import './BasicInfo.css';
 import React, { Component } from 'react';
+import Rating from './Rating'
 
 class BasicInfo extends Component {
   constructor(props) {
@@ -11,14 +12,16 @@ class BasicInfo extends Component {
  
   render() {
     return (
-      <div>
-        <div className={"subtextleft"}>
+      <div className={"subtextContainer"}>
+        <div className={"subtextleft subtext"}>
           {this.props.name}<br></br>
           {this.props.add}
         </div>
-        <div className={"subtextright"}>
-          Rating: Star Icons yay<br></br>
-          Read Reviews
+        <div className={"subtextright subtext"}>
+          <Rating rating={this.props.rating}/><br></br>
+          <div className={"subtextright_advanced"}>
+            <div></div>
+          </div>
         </div>
       </div>
       );
