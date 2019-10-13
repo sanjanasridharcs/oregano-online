@@ -8,10 +8,19 @@
   height: 40vmin;
 }
 
-.headertext {
-  color: beige;
+.titletext{
+  color: coral;
   font-family: 'Amatic SC', cursive;
-  font-size: 800%;
+  font-size: 700%;
+  width: 72%;
+  top: 30%;
+  margin-left: 14%;
+  background-color: darkolivegreen;
+  background-size: .2% .1%;
+  padding-top : .2% 0.5%;
+}
+
+.headertext {
   background-image: url('./spices_background.jpg');
   background-size: 100%;
   height: 960px;
@@ -23,8 +32,9 @@
   background-color: darkolivegreen;
   border: none;
   color: beige;
-  padding: 10px 15px;
+  padding: 1% 2%;
   text-align: center;
+  top: 30%;
   font-size: 25%;
   font-family: 'Amatic SC', cursive;
 }
