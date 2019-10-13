@@ -60,7 +60,7 @@ class RealApp extends Component {
                         <div>
                             Oregano   
                         </div>
-                        <div>
+                        <div className={"buttons"}>
                             <button className={"button"} type="button" onClick={() => {this.displayOvo('Ovo-Lacto-Vegetarian')}}>Ovo-Lacto-Vegetarian</button>&nbsp;
                             <button className={"button"} type="button" onClick={() => {this.displayLacto('Vegetarian')}}>Lacto-Vegetarian</button>&nbsp;
                             <button className={"button"} type="button" onClick={() => {this.displayVegan('Vegan')}}>Vegan</button>&nbsp;

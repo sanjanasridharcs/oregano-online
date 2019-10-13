@@ -35,8 +35,12 @@
   padding: 1% 2%;
   text-align: center;
   top: 30%;
-  font-size: 25%;
+  font-size: 50px;
   font-family: 'Amatic SC', cursive;
+}
+
+.buttons {
+  margin-top: 30px;
 }
 
 .button:hover {
