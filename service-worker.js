@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/oregano-online/precache-manifest.04ae8a76dbefe74da69a41f0266c5379.js"
+  "/oregano-online/precache-manifest.10c6e76d7834913027bdf9d4fb9f619b.js"
 );
 
 self.addEventListener('message', (event) => {

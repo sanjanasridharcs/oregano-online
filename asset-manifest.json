@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/oregano-online/static/css/main.461887fc.chunk.css",
-    "main.js": "/oregano-online/static/js/main.285fd8f4.chunk.js",
-    "main.js.map": "/oregano-online/static/js/main.285fd8f4.chunk.js.map",
+    "main.css": "/oregano-online/static/css/main.249d162d.chunk.css",
+    "main.js": "/oregano-online/static/js/main.f0c70b4f.chunk.js",
+    "main.js.map": "/oregano-online/static/js/main.f0c70b4f.chunk.js.map",
     "runtime-main.js": "/oregano-online/static/js/runtime-main.946460f3.js",
     "runtime-main.js.map": "/oregano-online/static/js/runtime-main.946460f3.js.map",
     "static/js/2.fd742fd4.chunk.js": "/oregano-online/static/js/2.fd742fd4.chunk.js",
     "static/js/2.fd742fd4.chunk.js.map": "/oregano-online/static/js/2.fd742fd4.chunk.js.map",
     "index.html": "/oregano-online/index.html",
-    "precache-manifest.04ae8a76dbefe74da69a41f0266c5379.js": "/oregano-online/precache-manifest.04ae8a76dbefe74da69a41f0266c5379.js",
+    "precache-manifest.10c6e76d7834913027bdf9d4fb9f619b.js": "/oregano-online/precache-manifest.10c6e76d7834913027bdf9d4fb9f619b.js",
     "service-worker.js": "/oregano-online/service-worker.js",
-    "static/css/main.461887fc.chunk.css.map": "/oregano-online/static/css/main.461887fc.chunk.css.map",
+    "static/css/main.249d162d.chunk.css.map": "/oregano-online/static/css/main.249d162d.chunk.css.map",
     "static/media/App.css": "/oregano-online/static/media/spices_background.d9cce979.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.946460f3.js",
     "static/js/2.fd742fd4.chunk.js",
-    "static/css/main.461887fc.chunk.css",
-    "static/js/main.285fd8f4.chunk.js"
+    "static/css/main.249d162d.chunk.css",
+    "static/js/main.f0c70b4f.chunk.js"
   ]
 }
