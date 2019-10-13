@@ -26,15 +26,15 @@ class RealApp extends Component {
             return (
             <div className={"bigBrain_main"}>
                 <div className={"headertext"}>
-                    <div>
-                    Oregano   
+                    <div className={"titletext"}>
+                        Oregano
+                        <button className={"button"} type="button" onClick={() => {this.display('Ovo-Lacto-Vegetarian')}}>Ovo-Lacto-Vegetarian</button>&nbsp;
+                        <button className={"button"} type="button" onClick={() => {this.display('Vegetarian')}}>Vegetarian</button>&nbsp;
+                        <button className={"button"} type="button" onClick={() => {this.display('Vegan')}}>Vegan</button>&nbsp;
+                        <button className={"button"} type="button" onClick={() => {this.display('Gluten Free')}}>Gluten-Free</button>     
                     </div>
                     <div>
-                    <button className={"button"} type="button" onClick={() => {this.display('Ovo-Lacto-Vegetarian')}}>Ovo-Lacto-Vegetarian</button>&nbsp;
-                    <button className={"button"} type="button" onClick={() => {this.display('Vegetarian')}}>Vegetarian</button>&nbsp;
-                    <button className={"button"} type="button" onClick={() => {this.display('Vegan')}}>Vegan</button>&nbsp;
-                    <button className={"button"} type="button" onClick={() => {this.display('Gluten Free')}}>Gluten-Free</button>
-                    </div>
+                     </div>
                 </div>
             </div>);
         }
