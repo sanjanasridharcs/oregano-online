@@ -16,7 +16,7 @@ class RealApp extends Component {
 
     setPage(page) {
         this.setState( (c) => {
-            this.state.page = page;
+            c.page = page;
             return c;
         });
     }
