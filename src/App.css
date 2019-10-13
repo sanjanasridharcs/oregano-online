@@ -31,4 +31,39 @@
 
 .button:hover {
   background-color: darkgreen;
+} 
+
+.subheader_text {
+  color: darkolivegreen;
+  font-family: 'Amatic SC', cursive;
+  font-size: 500%;
+  height: 20%;
+  padding-top: 80px;
+}
+
+.subpage {
+  padding: 1%;
+  margin: 1%;
+}
+
+.subtextleft {
+  background-color: darkolivegreen;
+  color: beige;
+  font-family: 'Amatic SC', cursive;
+  font-size: 200%; 
+  padding: 1%;
+  float: left; 
+  text-align: left;
+  width: 48%;
+}
+
+.subtextright {
+  background-color: darkolivegreen;
+  color: beige;
+  font-family: 'Amatic SC', cursive;
+  font-size: 200%; 
+  padding: 1%;
+  float: right; 
+  text-align: right;
+  width: 48%;
 }
