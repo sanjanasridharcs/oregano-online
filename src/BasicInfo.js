@@ -6,13 +6,14 @@ import Rating from './Rating'
 class BasicInfo extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+      showModel: false
+    }
   }
-
  
   render() {
     return (
-      <div className={"subtextContainer"}>
+      <div className={"subtextContainer"} onClick={() => {this.props.renderModel(true, this.props.name, this.props.add, this.props.rating)}}>
         <div className={"subtextleft subtext"}>
           {this.props.name}<br></br>
           {this.props.add}
