@@ -11,10 +11,12 @@ function App() {
       <div className={"bigBrain_main"}>
         <div className={"headertext"}>
           Oregano   
-        <button className={"button"} type="button" onClick = "alert('Ovo-Lacto-Vegetarian')">Ovo-Lacto-Vegetarian</button>&nbsp;
-        <button className={"button"} type="button" onClick = "alert('Vegetarian')">Vegetarian</button>&nbsp;
-        <button className={"button"} type="button" onClick="alert('Vegan')">Vegan</button>&nbsp;
-        <button className={"button"} type="button" onClick="alert('Gluten Free')">Gluten-Free</button>
+          <div>
+            <button className={"button"} type="button" onClick = {() => {alert('Ovo-Lacto-Vegetarian')}}>Ovo-Lacto-Vegetarian</button>&nbsp;
+            <button className={"button"} type="button" onClick = {() => {alert('Vegetarian')}}>Vegetarian</button>&nbsp;
+            <button className={"button"} type="button" onClick={() => {alert('Vegan')}}>Vegan</button>&nbsp;
+            <button className={"button"} type="button" onClick={() => {alert('Gluten Free')}}>Gluten-Free</button>
+          </div>
         </div>
       </div>
     </div>
