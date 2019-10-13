@@ -1,8 +1,9 @@
 import React from 'react';
 //import logo from './logo.svg';
-import bg1 from "./spices_background.jpg";
+//import bg1 from "./spices_background.jpg";
 import './App.css';
-import './font/amaticsc-bold-webfont.woff';
+//import './font/amaticsc-bold-webfont.woff';
+
 
 function App() {
   return (

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
 .App {
   text-align: center;
 }
@@ -7,11 +9,11 @@
 }
 
 .headertext {
-  font: "amatic_scbold";
   color: white;
+  font-family: 'Amatic SC', cursive;
   font-size: 100px;
   background-image: url('./spices_background.jpg');
-  background-size: 100% 100%;
-  height: 870px;
+  background-size: 100%;
+  height: 960px;
   
 }
