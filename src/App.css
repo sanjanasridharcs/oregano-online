@@ -19,12 +19,16 @@
   background-repeat: no-repeat;
 }
 
-.button_ovolacto {
+.button {
   background-color: darkolivegreen;
   border: none;
   color: beige;
-  padding: 15px 25px;
+  padding: 10px 15px;
   text-align: center;
   font-size: 25%;
   font-family: 'Amatic SC', cursive;
+}
+
+.button:hover {
+  background-color: darkgreen;
 }
